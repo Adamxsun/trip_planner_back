@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const port = 3000;
-
+app.use(cors());
 // Sample data for cities
 const cities = [
   { name: 'Rome',  label: '001',description: 'Rome, the capital city of Italy, is a captivating blend of ancient history and modern vibrancy. ' },
